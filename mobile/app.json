@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "WealthTrack",
+    "slug": "WealthTrack",
+    "description": "Smart money tracking for groups — split, settle, and stay clear on who owes what",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0A1E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mohitlakhara.WealthTrack",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow WealthTrack to select a group icon from your photo library.",
+        "NSCameraUsageDescription": "Allow WealthTrack to scan receipts using your camera."
+      }
+    },
+    "android": {
+      "package": "com.mohitlakhara.WealthTrack",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0A1E"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": ["READ_MEDIA_IMAGES", "CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
